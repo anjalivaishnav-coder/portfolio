@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact </title>
+    <style>
+        /* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8fc;
+    color: #25243a;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    margin-top: 120px;
+}
+
+/* Heading */
+h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.intro {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 60px;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    gap: 50px;
+}
+
+/* Left Side */
+.contact-info {
+    width: 50%;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.description {
+    margin-top: 50px;
+    line-height: 1.8;
+    color: #444;
+}
+
+/* Right Side */
+.contact-form {
+    width: 50%;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Input Boxes */
+input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Message Box */
+textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+/* Button */
+button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #15803d;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .contact-info h2,
+    .contact-form h2 {
+        font-size: 25px;
+    }
+
+}
+
+#box1 {background-color: rgb(32, 33, 62);
+        color: white;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top:0px;
+        padding: 10px 30px;
+        
+        }
+
+        *{margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;}
+
+        .navbutton{color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;}
+
+
+    #footer{background-color: rgb(32, 33, 62);
+        color: white;
+        height: 160px;
+        width: 100%;
+        text-align: center;}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div><h1>Anjali.dll</h1></div>
+        <div>
+        <a href="project_2.html"  class="navbutton">Home</a>
+        <a href="about.html" class="navbutton">About</a>
+        <a href="skill.html" class="navbutton">Skills</a>
+        <a href="projects.html" class="navbutton">projects</a>
+        <a href="achivement.html" class="navbutton">Achievements</a>
+        <a href="contact.html" class="navbutton">Contact</a>
+        </div>
+    </div>
+    
+
+    <div class="container">
+
+        <!-- Heading Section -->
+        <h1>Let's Connect! 💌</h1>
+
+        <p class="intro">
+            Have an idea or want to talk about technology?
+            Say hello!
+        </p>
+
+        <!-- Main Content -->
+        <div class="contact-section">
+
+            <!-- Left Side -->
+            <div class="contact-info">
+
+                <h2>Get in Touch</h2>
+
+                <p>📧 anjalivaishnav1126@gmail.com</p>
+
+                <p>📍 Gurugram</p>
+
+                <p>💡 Open to creative project ideas</p>
+
+                <p class="description">
+                    I enjoy meeting people who love learning,
+                    building, and sharing ideas.
+                </p>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="contact-form">
+
+                <h2>Send a Message</h2>
+
+                <form>
+
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+
+                    <label>Your Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+
+                    <label>Your Message</label>
+                    <textarea placeholder="Write your message..." required></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="footer">
+            <h1>Alex.dev</h1>
+            <p>Turning ideas into reality.<br><br>
+                made using HTML $ CSS| 2026<BR>
+                    back to top
+
+            </p>
+
+
+</body>
+</html>
+
